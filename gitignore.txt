@@ -1,0 +1,101 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ============================================================
+# Streamlit
+# ============================================================
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Keep Streamlit config if you create one
+# .streamlit/config.toml
+
+# ============================================================
+# Jupyter / notebooks
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================================
+# Data files
+# ============================================================
+*.csv
+*.xlsx
+*.xls
+*.xlsm
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+
+# Optional: keep example/demo data if needed
+!examples/
+!examples/*.csv
+!sample_data/
+!sample_data/*.csv
+!sample_data/*.xlsx
+
+# ============================================================
+# Model / experiment outputs
+# ============================================================
+models/
+outputs/
+reports/
+artifacts/
+mlruns/
+wandb/
+
+# ============================================================
+# OS files
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# IDE / editors
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================================================
+# Logs and temporary files
+# ============================================================
+*.log
+*.tmp
+*.bak
+*.old
+.cache/
+tmp/
+temp/
+
+# ============================================================
+# Environment variables
+# ============================================================
+.env
+.env.*
+!.env.example
